@@ -1,0 +1,27 @@
+{
+  "name": "md-links",
+  "version": "1.0.0",
+  "main": "\u001b[A\u001b[",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "repository":{
+    "type": "git",
+    "url":"git+https://github.com/anacola/SAP003-md-links.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bug": {
+    "url": "https://github.com/anacola/SAP003-md-links/issues"
+  },
+  "homepage": "https://github.com/anacola/SAP003-md-links#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  
+  "description": "",
+  "dependencies": {
+    "eslint": "^6.7.1"
+  }
+}
