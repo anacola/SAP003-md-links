@@ -22,7 +22,7 @@
     "md-links": "cli.js"
   },
   "description": "",
-  "dependencies": {
+  "devDependencies": {
     "eslint": "^6.7.1",
     "jest": "^24.9.0"
   }
