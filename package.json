@@ -9,7 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/anacola/SAP003-md-links.git"
   },
-  "author": "",
+  "author": "Ana Cola",
   "license": "ISC",
   "bug": {
     "url": "https://github.com/anacola/SAP003-md-links/issues"
@@ -19,9 +19,9 @@
     "lib": "lib"
   },
   "bin": {
-    "md-links": "cli.js"
+    "md-links": "./lib/cli.js"
   },
-  "description": "",
+  "description": " Biblioteca destinada a extrair links de        arquivos markdown executável pela linha de comando. ",
   "devDependencies": {
     "eslint": "^6.7.1",
     "jest": "^24.9.0"
