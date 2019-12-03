@@ -27,6 +27,11 @@ $ npm install -g anacola/SAP003-md-links
 
 No terminal é executado da seguinte maneira: 
 
+Fazer requisição
+const mdLinks = require("./some/example.md");
+
+
+Executar o módulo:
 ```
 md-links <path-to-file> [option]
 ```
