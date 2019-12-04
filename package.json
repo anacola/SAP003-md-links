@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "./lib/index.js",
   "scripts": {
+    "eslint": "eslint --ext .js lib/__tests__",
     "test": "jest --coverage"
   },
   "repository": {
@@ -19,7 +20,7 @@
     "lib": "lib"
   },
   "bin": {
-    "md-links": "./lib/cli.js"
+    "md-links": "cli.js"
   },
   "description": " Biblioteca destinada a extrair links de        arquivos markdown executável pela linha de comando. ",
   "devDependencies": {

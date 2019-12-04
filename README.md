@@ -20,25 +20,28 @@ Para utilizar essa biblioteca, você deve ter instalado o NodesJS no  seu comput
 Depois, você deve executar o seguinte comando no terminal:
 
 ```
-$ npm install -g anacola/SAP003-md-links
+$ npm install anacola/SAP003-md-links
 ```
 
 ## 3. Como utilizar
 
 No terminal é executado da seguinte maneira: 
 
-Fazer requisição
-const mdLinks = require("./some/example.md");
+### Fazer requisição
+```
+$ node
 
+const mdLinks = require('md-links')
+
+    mdLinks('fileName').then(console.log)
+```
 
 Executar o módulo:
 ```
 md-links <path-to-file> [option]
 ```
 
-```
-$ md-links ./some/example.md
-```
+
 
 #### Valor de Retorno
 
